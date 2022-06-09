@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway:wght@500&display=swap');
+
+body{
+    font-family: consolas;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    background-color: #6e72fc;
+    color: #fff;
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    font-family: Raleway;
+    height: 70px;
+    position: fixed;
+    overflow: hidden;
+}
+
+.name{
+    padding: 17px 70px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menu{
+    padding: 6px;
+    font-size: 17px;
+    position: absolute;
+    right: 0;
+}
+
+.nav-links{
+    padding-right: 20px;
+}
+
+.nav-links li{
+    padding: 70px 10px;
+    display: inline;
+}
+
+.nav-links a{
+    color:rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+.nav-links a:hover{
+    color: #fff;
+}
+
+.selected{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.selected a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.profession{
+    font-family: Noto Sans;
+    padding-top: 85px;
+    height: 200px;
+    text-align: center;
+    background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+}
+
+.about{
+    min-height: 20%;
+    max-height: 75%;
+    padding: 40px 20%;
+    font-size: large;
+    text-align: center;
+    font-family: consolas;
+}
+
+.about img{
+    margin-bottom: 30px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(./img/pexels-krivec-ales-552789.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proj{
+    background-color:  rgb(30, 44, 87);
+    font-size: 20px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.proj img{
+    padding-bottom: 20px;
+}
+
+.proj-name{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #5f0a87;
+    padding:30px 0 0 0;
+
+}
+
+.pro{
+    background-color: #5f0a87;
+}
+
+.footer{
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #fff;
+    padding: 50px;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.container input{
+    margin: 0 20px 20px 20px;
+}
