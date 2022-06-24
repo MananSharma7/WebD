@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Inconsolata&family=Noto+Sans&family=Raleway:wght@500&display=swap');
 
 body{
     font-family: consolas;
@@ -13,6 +13,7 @@ body{
 .navbar{
     display: flex;
     flex-direction: row;
+    justify-content: right;
     width: 100%;
     background-color: #a4508b;
     background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
@@ -22,26 +23,30 @@ body{
     overflow: hidden;
 }
 
-.name{
+.logo{
+    font-family: bangers;
     padding: 17px 70px;
-    font-weight: bold;
     font-size: 30px;
+    display: flex;
+    justify-content: left;
 }
 
-.menu{
-    padding: 6px;
-    font-size: 17px;
-    position: absolute;
-    right: 0;
+.navtab{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 .nav-links{
     padding-right: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 .nav-links li{
-    padding: 70px 10px;
-    display: inline;
+    
 }
 
 .nav-links a{
@@ -71,12 +76,12 @@ body{
 }
 
 .about{
+    font-family: Consolas,monaco,monospace; 
     min-height: 20%;
     max-height: 75%;
     padding: 40px 20%;
     font-size: large;
     text-align: center;
-    font-family: consolas;
 }
 
 .about img{
@@ -124,22 +129,72 @@ body{
     background-color: #5f0a87;
 }
 
-.footer{
-    height: 500px;
-    text-align: center;
-    padding: 50px;
+.Fname, .Femail, .Fsubj{
+    width: 100%;
+    color: #fff;
+    background-color: #720ca100;
+    font-family: Consolas;
+    font-size: 16px;
+    padding: 5px; 
+    border: none;
+    border-bottom: 2px solid #fff;
+    box-sizing: border-box;
+    margin: 6px 0 16px 0;
 }
 
-.container{
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(255, 255, 255, 0.8);
+    font-size: 16px
+}
+
+.Fmessage{
+    width: 100%;
+    height: 125px;
+    color: #fff;
+    background-color: #720ca100;
+    padding: 12px; 
+    border: none;
+    border-bottom: 2px solid #fff;
+    box-sizing: border-box;
+    margin: 6px 0 16px 0;
+}
+
+.submit {
+    background-color: #380a50;
+    font-family: consolas;
+    color: #fff;
+    padding: 12px 20px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #5f0a87;
+    color: #fff;
+}
+
+.feedback {
     display: flex;
     flex-direction: column;
-    border: 10px solid #fff;
-    padding: 50px;
-    width: 50%;
-    justify-content: center;
-    text-align: center;
+    align-items:center ;
+    border-radius: 10px;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    margin: 40px 30%;
+    padding: 15px 40px;
 }
 
-.container input{
-    margin: 0 20px 20px 20px;
+.social{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    margin: 40px 30%;
 }

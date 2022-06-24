@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: black;
+}
+.logo{
+    width: 35px; height: 31px; 
+    border-radius: 50%; border: solid white; border-width: 1px;
+    margin-right: 40px;
+}
+.nav_link{
+    background-color:black;
+    color: white;
+    display: flex;
+    padding: 0px 15px;
+}
+.links{
+    background-color: black;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.welc{
+    position: relative;
+}
+.welc-img{
+    width: 100%;
+}
+.welc_txt{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.700);
+    color: white;
+    top: 35%;
+    left: 38%;
+    padding: 50px;
+}
+.about{
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+.about_img{
+    padding-left: 100px;
+    padding-right: 20px;
+    width: 55%;
+    height: 55%;
+}
+.about_para{
+    display: flex;
+    font-size: 20px;
+}
+.parallax{
+    background-image: url(../assignment/photos/parallex.jpeg);
+    height: 20%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    color: white;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.learn{
+    margin:50px;
+}
+.bottombar{
+    display: flex;
+    justify-content: center;
+    padding: 10px 5%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}

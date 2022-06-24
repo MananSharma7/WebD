@@ -1,0 +1,66 @@
+body {
+    background: rgb(20, 20, 20);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+  }
+  .red {
+    background: #e44236;
+  }
+  .cyan {
+    background: #25ccf7;
+  }
+  .violet {
+    background: #8b78e6;
+  }
+  .orange {
+    background: #ea7773;
+  }
+  .pink {
+    background: #bb2cd9;
+  }
+  .brown {
+    background: #9a7b4f;
+  }
+  .green{
+    background: #7cfc00;
+  }
+  .yellow{
+    background: yellow;
+  }
+  
+  .center {
+    min-width: 400px;
+    height: 400px;
+    background: rgb(20, 20, 20);
+    border-radius: 100%;
+    transition: 0.2s ease-in-out all;
+  }
+  .color-hover {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .color {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+  }
+  .color:hover {
+    cursor: pointer;
+  }
+  .color:last-child {
+    margin-bottom: 0;
+  }
+  

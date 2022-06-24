@@ -4,16 +4,15 @@
     <link rel="icon" href="img/icon.png" type="image/icon type">
     <title>My Portfolio</title>
 </head>
-<body>
+<body> 
     <nav class="navbar">
-        <div class="name">Manan Sharma</div>
-        <div class="menu">
+        <div class="logo">Manan Sharma</div>
+        <div class="navtab">
             <ul class="nav-links">
-                <li class="selected"><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Services</a></li>
-                <li><a href="/">Pricing</a></li>
-                <li><a href="/">Contact</a></li>
+                    <li class="selected"><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -22,7 +21,7 @@
         <h3>Front End Web Developer</h3>
         <h5>Html, CSS, JavaScript and Bootstrap</h5>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="bac">
         <img src="./img/4884785.jpg" alt="me :)" width="65%">
         <p>I am a hobbyist Web Developer with a working profiency in HTML, CSS and JavaScript. I have a good understanding of Bootstrap, SASS and Git Version control. I am currenty expanding my skill set by studying Node.js, Express, Angular and MongoDB on Rails along with my engineering core branch Electronics and Communication subjects. I also have good typing skills.</p>
@@ -49,18 +48,23 @@
             </div>
         </div>
     </div>
-    <div class="footer">
-        <h1>Send Me Reviews:</h1>
-        <div class="container">
-            <label for="name">Enter your name:</label>
-            <input type="text" id="name" name="name">
-
-            <label for="email">Enter your email:</label>
-            <input type="email" id="email" name="email">
-            
-            <label for="text">Enter your review:</label>
-            <input type="text" id="review" name="review">
+    <div  style="padding: 0 0 10px 0;">
+        <div class="feedback">
+        <h1>Send Me A Message:</h1>
+            <input type="text" class="labl Fname" name="firstname" placeholder="Your name..">
+            <input type="text" class="labl Femail" name="email" placeholder="Your email..">
+            <input type="text" class="labl Fsubj" name="subject" placeholder="Subject..">
+            <textarea class="Fmessage labl" name="message" placeholder="Write your Message Here.."></textarea>
+            <input type="submit" class="submit" value="Submit">
         </div>
+    </div>
+    <div class="social">
+        <a href="">
+            <img src="./img/instagram.png" alt="instagram" width="5%">
+        </a>
+        <a href="">
+            <img src="./img/linkedin.png" alt="linkedin" width="5%">
+        </a>
     </div>
 </body>
 </html>
